@@ -1,0 +1,30 @@
+
+Get http://localhost:5246/courses
+###
+
+Get http://localhost:5246/courses/1
+###   
+
+POST http://localhost:5246/courses
+Content-Type: application/json
+
+{
+  "Title": "ASP.NET Core for Beginners",
+  "Description": "Learn how to build modern web APIs using ASP.NET Core.",
+  "Date": "2025-04-25",
+  "Price": 179.99
+}
+###
+
+PUT http://localhost:5246/courses/2
+Content-Type: application/json
+
+{
+    "Title": "Title 1111",
+    "Description": "Desc 1",
+    "Price": 99,
+    "Date": "2011-11-10"
+}
+###
+
+DELETE http://localhost:5246/courses/2
