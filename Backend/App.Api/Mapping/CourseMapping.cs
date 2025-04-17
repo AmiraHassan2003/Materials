@@ -6,21 +6,13 @@ namespace App.Api.Mapping;
 
 public static class CourseMapping
 {
-    public static Course ToEntity(this CreateCoursesDto game){
+    public static Course ToEntity(this CreateCoursesDto course){
         return new Course()
         {
-            Title = game.Title,
-            Date = game.Date,
-            Price = game.Price,
-            Description = game.Description
+            Title = course.Title,
+            Date = course.Date,
+            Price = course.Price,
+            Description = course.Description
         };
     }
-
-    // public static CourseSummaryDto ToSummaryDto(this Course game)
-    // {
-    //     return new(
-            
-    //     );
-        
-    // }
 }
