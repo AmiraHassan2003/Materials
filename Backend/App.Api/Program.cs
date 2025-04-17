@@ -16,9 +16,9 @@ builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
     {
-        policy.AllowAnyOrigin()
-              .AllowAnyMethod()
-              .AllowAnyHeader();
+        policy.AllowAnyOrigin()   // Domain
+              .AllowAnyMethod()   // GET, POST, PUT, ...
+              .AllowAnyHeader();  // Content-Type, Authorization, ...
     });
 });
 

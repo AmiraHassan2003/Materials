@@ -302,3 +302,4 @@ D:\FullStack\DotNet\Materials\Backend\App.Api\obj\Debug\net9.0\refint\App.Api.dl
 D:\FullStack\DotNet\Materials\Backend\App.Api\obj\Debug\net9.0\App.Api.pdb
 D:\FullStack\DotNet\Materials\Backend\App.Api\obj\Debug\net9.0\App.Api.genruntimeconfig.cache
 D:\FullStack\DotNet\Materials\Backend\App.Api\obj\Debug\net9.0\ref\App.Api.dll
+D:\FullStack\DotNet\Materials\Backend\App.Api\obj\Debug\net9.0\App.Api.sourcelink.json
